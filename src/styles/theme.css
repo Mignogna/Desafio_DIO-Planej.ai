@@ -3,12 +3,12 @@
     [data-theme='light'] {
         --background: #f8fafc;
         --foreground: #0f1729;
-        --primary: #925cf0;
+        --primary: rgb(38, 148, 30);
         --primary-foreground: #f8fafc;
         --card:#fcfcfe;
         --border: rgba(9,9,11,0.08);
         --muted-primary: rgba(146,92,240,0.5);
-        --muted-foregound: #64749a;
+        --muted-foregound: #699074;
         --secondary-button: #f1f5f9;
         --input: #fcfcfe
     }
@@ -16,12 +16,12 @@
     [data-theme='dark'] {
         --background: #0f0d16;
         --foreground: #fcfcfe;
-        --primary: #925cf0;
+        --primary: rgb(97, 178, 91);
         --primary-foreground: #fcfcfe;
         --card: #181622;
         --border: rgba(248,250,252,0.4);
         --muted-primary: rgba(146,92,240,0.2);
-        --muted-foregound: #ad9fc8;
+        --muted-foregound: #9fc8ba;
         --secondary-button: #27272a;
         --input: #232131;
     }
