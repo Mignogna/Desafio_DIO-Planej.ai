@@ -9,3 +9,9 @@ export function formatToBRL(value: string): string {
     maximumFractionDigits:2,
   }).format(number);
 }
+
+export function parseCurrency(value: string): number {
+    return (
+        parseFloat(value.replace(/\./g, '').replace(',','.').replace("R$", ""))
+|| 0    )
+}
