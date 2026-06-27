@@ -1,16 +1,19 @@
 @layer base {
+
     :root,
     [data-theme='light'] {
         --background: #f8fafc;
         --foreground: #0f1729;
         --primary: rgb(38, 148, 30);
         --primary-foreground: #f8fafc;
-        --card:#fcfcfe;
-        --border: rgba(9,9,11,0.08);
-        --muted-primary: rgba(146,92,240,0.5);
+        --card: #fcfcfe;
+        --border: rgba(9, 9, 11, 0.08);
+        --muted-primary: rgba(92, 240, 149, 0.5);
         --muted-foregound: #699074;
         --secondary-button: #f1f5f9;
-        --input: #fcfcfe
+        --input: #fcfcfe ;
+        --skeleton-base-color: rgb(150, 192, 165);
+        --skeleton-highlight-color: #c5dfcd;
     }
 
     [data-theme='dark'] {
@@ -19,25 +22,29 @@
         --primary: rgb(97, 178, 91);
         --primary-foreground: #fcfcfe;
         --card: #181622;
-        --border: rgba(248,250,252,0.4);
-        --muted-primary: rgba(146,92,240,0.2);
+        --border: rgba(248, 250, 252, 0.4);
+        --muted-primary: rgba(92, 240, 104, 0.2);
         --muted-foregound: #9fc8ba;
         --secondary-button: #27272a;
         --input: #232131;
+        --skeleton-base-color: #3e4241;
+        --skeleton-highlight-color: #405248;
     }
 }
 
-@theme{
-    --color-background: var(--background);  
+@theme {
+    --color-background: var(--background);
     --color-foreground: var(--foreground);
-    --color-primary: var(--primary);    
+    --color-primary: var(--primary);
     --color-primary-foreground: var(--primary-foreground);
-    --color-card: var(--card);  
+    --color-card: var(--card);
     --color-border: var(--border);
-    --color-muted-primary: var(--muted-primary);    
-    --color-muted-foregound: var(--muted-foregound);    
+    --color-muted-primary: var(--muted-primary);
+    --color-muted-foregound: var(--muted-foregound);
     --color-secondary-button: var(--secondary-button);
-    --color-input: var(--input);    
+    --color-input: var(--input);
     --color-red-500: #ef4444;
-    --font-sans: 'Inter', sans-serif, ui-sans-serif, system-ui ;
+    --font-sans: 'Inter', sans-serif, ui-sans-serif, system-ui;
+    --skeleton-base-color: #3e3e42;
+    --skeleton-highlight-color: #434052;
 }
